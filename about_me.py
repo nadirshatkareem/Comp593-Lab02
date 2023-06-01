@@ -65,8 +65,8 @@ def print_student_name_and_id(my_info):
     # Print sentence containing student ID
     fullname = my_info['name']
     firstname = fullname.split()[0]
-    print(f"My name is {my_info ['name']}, but you can call me Mr.{firstname}")
-    print(f"My student ID is {my_info['studentid']}")
+    print(f"My name is {my_info ['name']}, but you can call me Mr.{firstname}.")
+    print(f"My student ID is {my_info['studentid']}.")
 
 def print_pizza_toppings(my_info):
     """Prints a bullet list of favourite pizza toppings
